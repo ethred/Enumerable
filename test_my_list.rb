@@ -14,5 +14,5 @@ puts(list.any? { |e| e == 2 }) # Should output true
 puts(list.any? { |e| e == 5 }) # Should output false
 
 # Test #filter
-print(list.filter { |e| e.even? }) # Should output [2, 4]
+p list.filter { |e| e.even? } # Should output [2, 4]
 print("\n")
