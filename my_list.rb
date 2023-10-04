@@ -1,7 +1,7 @@
 require_relative 'my_enumerable'
 class MyList
   include MyEnumerable
-  #INITIALIZE ITEMS
+  # INITIALIZE ITEMS
   def initialize(*items)
     @list = items
   end
